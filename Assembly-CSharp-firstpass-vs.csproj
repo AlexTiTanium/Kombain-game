@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{6CE4EBE1-5BB9-DBB7-58BF-81902DB2708E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_0;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>G:/Unity35/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>G:/Unity35/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\ButtonRetry.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\LevelInfo.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\LifePanel.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\ScoreInfo.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\WindowGameOver.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\WindowWin.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\base\Button.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\GUIElements\base\Window.cs" />
+     <Compile Include="Assets\Standard Assets\GUI\MainGuiScript.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\Detonator.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Detonator Explosion Framework\System\DetonatorSpray.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\1 - Paralax scrolling FilledSprite\CExample1.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\2 - Moving collidable sprites\CBlock2.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\2 - Moving collidable sprites\CExample2.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\2 - Moving collidable sprites\CStar2.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\3 - Shooting Asteroids\CAsteroid3.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\3 - Shooting Asteroids\CBullet3.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\3 - Shooting Asteroids\CExample3.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\4 - Follow Target View\CExample4.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\4 - Follow Target View\CMover4.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\5 - Creating At Runtime\CExample5.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\6 - Physics\CExample6.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\7 - Tweening\CExample7.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\7 - Tweening\CStar7_1.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\Examples\7 - Tweening\CStar7_2.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\OTView.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTAtlasData.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTSpriteAtlas.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTSpriteAtlasCocos2D.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImport.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTSpriteAtlasImportXML.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTSpriteAtlasOGRE.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\Atlas\OTSpriteAtlasSparrow.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTAnimatingSprite.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTAnimation.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTAnimationFrameset.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTContainer.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTFilledSprite.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTSprite.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Graphics\Sprites\OTSpriteSheet.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEase.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseBackIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseBackInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseBackOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseBounceIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseBounceInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseBounceOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseCircIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseCircInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseCircOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseCubicIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseCubicInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseCubicOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseElasticIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseElasticInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseElasticOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseExpoIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseExpoInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseExpoOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseLinear.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuadIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuadInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuadOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuartIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuartInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuartOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuintIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuintInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseQuintOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseSineIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseSineInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseSineOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseStrongIn.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseStrongInOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEaseStrongOut.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTEasing.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTTween.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\Tweening\OTTweenController.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OT.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OTController.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OTMatRef.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OTObject.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OTObjectType.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OTPB.cs" />
+     <Compile Include="Assets\Standard Assets\libs\Orthello\OT\_Base\OTTimeCycle.cs" />
+     <Compile Include="Assets\Standard Assets\libs\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\Standard Assets\libs\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Standard Assets\libs\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Standard Assets\libs\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Standard Assets\scripts\Bullet.cs" />
+     <Compile Include="Assets\Standard Assets\scripts\Score.cs" />
+     <Compile Include="Assets\Standard Assets\scripts\enemy\EnemiesBrain.cs" />
+     <Compile Include="Assets\Standard Assets\scripts\enemy\EnemyController.cs" />
+     <Compile Include="Assets\Standard Assets\scripts\player\Controller.cs" />
+     <Compile Include="Assets\Standard Assets\scripts\player\Shooter.cs" />
+     <None Include="Assets\Standard Assets\grafics\images\cannon\cannon.xml" />
+     <None Include="Assets\Standard Assets\libs\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\libs\Orthello\Examples\4 - Follow Target View\-orthello-config.xml" />
+     <None Include="Assets\Standard Assets\libs\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Standard Assets\libs\Orthello\-Read-Me.txt" />
+     <None Include="Assets\Standard Assets\grafics\images\enemy\enemy.xml" />
+     <None Include="Assets\Standard Assets\libs\Orthello\OT\_Base\TintedAlpha.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
