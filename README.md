@@ -16,3 +16,5 @@ Authors
 The idea and graphics: Dima Balyn <dima.balyn@gmail.com> http://freelance.ru/users/djdb
 
 Programming: Alex Kucherenko <kucherenko.email@gmail.com>
+
+![Alt text](http://shots.m18.ru/image/4vbb3kq7s7.png "Sreenshots")
